@@ -8,10 +8,17 @@ public class App
 {
     public static void main( String[] args )
     {
-        int a = 2;
-        int b = 4;
 
-        System.out.print(a);
+
 
     }
+
+
+    public int returnA(int a, int b) {
+        return a;
+    }
+    public int multiply(int a, int b){
+        return a*b;
+    }
+
 }

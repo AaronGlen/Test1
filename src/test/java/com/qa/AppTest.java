@@ -1,6 +1,7 @@
 package com.qa;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Assert;
@@ -31,8 +32,16 @@ public class AppTest
     }
 
     @Test
-    public void addNumber(){
-        
-        assertEquals("returning?", 2, app.input2(2,5));
+    public void returnATest (){
+
+        assertEquals("returning?", 2, app.returnA(2,5));
     }
+    @Test
+    public void multiplyTest(){
+
+        assertEquals("returning?", 10, app.multiply(2,5));
+    }
+
+
+
 }
