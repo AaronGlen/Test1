@@ -41,6 +41,14 @@ public class AppTest
 
         assertEquals("returning?", 10, app.multiply(2,5));
     }
+    @Test
+    public void equalsTest(){
+        assertEquals( "a == b", true, app.equals(2,2) );
+    }
+    @Test
+    public void equalsTest2(){
+        assertFalse( "a == b",  app.equals(4,2) );
+    }
 
 
 
