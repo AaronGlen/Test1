@@ -16,4 +16,8 @@ public class AppTest
     public void test1(){
         fail("fail");
     }
+    @test
+    public void test1(){
+        fail("fail");
+    }
 }
