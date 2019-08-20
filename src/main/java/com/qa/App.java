@@ -22,12 +22,19 @@ public class App
     }
 
     public boolean equals(int a, int b){
-        if (a == b){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return a == b;
     }
+
+     public String minus(int a, int b){
+      if (a-b == 2){
+          return "yes";
+      }
+      else {
+          return "no";
+      }
+    }
+
+
+
 
 }
